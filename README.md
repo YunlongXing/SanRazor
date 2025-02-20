@@ -77,10 +77,10 @@ sed -i "s/static_assert(SmallSize <= .*, \"SmallSize should be small\");/static_
 
 `sudo apt-get install ruby-full`
 ```
-gem install fileutils
-gem install parallel
-gem install pathname
-gem install shellwords
+sudo gem install fileutils
+sudo gem install parallel -v 1.24.0
+sudo gem install pathname -v 0.2.0
+sudo gem install shellwords
 ```
 
 ### 3. Usage of SanRazor
