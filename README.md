@@ -69,8 +69,13 @@ sed -i "s/static_assert(SmallSize <= .*, \"SmallSize should be small\");/static_
 ```
 
 2.4. Compile your llvm project again:
-
-**install `z3 >= 4.7.1`**
+First install [Z3](https://github.com/Z3Prover/z3/tree/z3-4.7.1) (>=4.7.1)
+```shell
+python scripts/mk_make.py
+cd build
+make
+sudo make install
+```
 ```
 ./build_and_install_llvm9.sh
 ```
