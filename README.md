@@ -33,6 +33,7 @@ bash test_mp3gain_asan.sh 2 &> mp3gain_asan_L2.txt
 
 ## Detailed Instructions
 ### 1. Prerequisite
+system runtime: ```ubuntu 18.04```
 ```
 wget xz-utils cmake make g++ python3 python3-distutils
 ```
