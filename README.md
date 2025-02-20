@@ -74,6 +74,7 @@ sed -i "s/static_assert(SmallSize <= .*, \"SmallSize should be small\");/static_
 ```
 
 2.5. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/) and make sure that the following libraries are installed in your system:
+
 `sudo apt-get install ruby-full`
 ```
 gem install fileutils
