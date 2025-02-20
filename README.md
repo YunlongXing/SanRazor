@@ -5,7 +5,7 @@
 SanRazor is a sanitizer check reduction tool aiming to incur little overhead while retaining all important sanitizer checks. 
 
 ## Accepted paper
-SanRazor: Reducing Redundant Sanitizer Checks in C/C++ Programs. Jiang Zhang, Shuai Wang, Manuel Rigger, Pingjia He, and Zhendong Su. OSDI 2021 (conditional accept)
+SanRazor: Reducing Redundant Sanitizer Checks in C/C++ Programs. Jiang Zhang, Shuai Wang, Manuel Rigger, Pingjia He, and Zhendong Su. OSDI 2021
 
 ## Artifact structure
 1. `src` contains the source code of SanRazor.
