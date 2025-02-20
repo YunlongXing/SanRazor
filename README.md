@@ -69,6 +69,8 @@ sed -i "s/static_assert(SmallSize <= .*, \"SmallSize should be small\");/static_
 ```
 
 2.4. Compile your llvm project again:
+
+**install `z3 >= 4.7.1`**
 ```
 ./build_and_install_llvm9.sh
 ```
