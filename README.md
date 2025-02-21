@@ -79,6 +79,7 @@ sudo make install
 ```bash
 ./build_and_install_llvm9.sh
 ```
+(may add `llvm/build/bin/` to environment)
 
 2.5. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/) and make sure that the following libraries are installed in your system:
 
