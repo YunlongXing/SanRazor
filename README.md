@@ -87,7 +87,7 @@ sudo make install
 sudo gem install bundler -v 2.3.27
 sudo gem install fileutils
 sudo gem install parallel -v 1.24.0
-sudo gem install pathname -v 0.2.0
+# sudo gem install pathname -v 0.2.0
 sudo gem install shellwords
 ```
 
